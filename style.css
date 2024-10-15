@@ -1,12 +1,44 @@
+*{
+  margin: 0;
+}
+
+
+
+
+
+body{
+
+  
+}
 
 img{
+  max-width: 100%;
 
 }
 
 header{
   background-image: url(./assets/pattern.png);
   background-color: cornflowerblue;
-  
-  
-  
+  background-size: 23%;
+  background-position: 70px;
+  padding-top: 36px;
+  padding-left: 8px;
 }
+
+header .logo{
+  width: 200px;
+}
+
+/***********utils***********/
+.caption{
+  font: size 0.8rem;
+}
+.hightlight{
+  background-color: yellow;
+}
+
+
+
+
+/***********main*********/
+
